@@ -86,4 +86,3 @@ class Main
 end
 
 math_game = Main.new
-math_game.start
