@@ -16,7 +16,7 @@ class Main
 
       question1 = Question.new
       answer1 = question1.question_player1
-      reponse1 = Response.new
+      response1 = Response.new
 
       # If the response of answer1 is equal to true (correct), p1 no lives lost
       if response1.compare(answer1)
@@ -50,7 +50,7 @@ class Main
 
       question2 = Question.new
       answer2 = question2.question_player2
-      reponse2 = Response.new
+      response2 = Response.new
 
       # If the response of answer2 is equal to true (correct), p2 no lives lost
       if response2.compare(answer2)
